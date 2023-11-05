@@ -1,18 +1,142 @@
-/* Error: Undefined variable.
- *   ,
- * 8 |         background-color: $secondarycolor;
- *   |                           ^^^^^^^^^^^^^^^
- *   '
- *   components\_index1.scss 8:27  @import
- *   styles\index.scss 2:9         root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 8 \2502          background-color: $secondarycolor;\d\a   \2502                            ^^^^^^^^^^^^^^^\a   \2575 \a   components\\_index1.scss 8:27  @import\a   styles\\index.scss 2:9         root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+* body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: whitesmoke;
+}
+* body main {
+  width: 100%;
+}
+* body main nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 40px 10px 40px;
+  box-shadow: 1px 1px 1px 1px gainsboro;
+}
+* body main nav .logo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+* body main nav .logo img {
+  width: 10%;
+}
+* body main nav .logo input {
+  width: 40%;
+  background-color: gainsboro;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 7px;
+}
+* body main nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+* body main .section1 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* body main .section1 img {
+  width: 25%;
+}
+* body main .section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+* body main .section2 button {
+  padding: 20px 35px;
+  background-color: rgb(0, 0, 58);
+  border: none;
+  border-radius: 10px;
+  width: 160px;
+  text-align: center;
+}
+* body main .section2 button a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+  body main nav a {
+    width: 12%;
+  }
+  body main .section1 {
+    margin-top: 80px;
+  }
+  body main .section1 img {
+    width: 35%;
+  }
+  body main .section2 button {
+    padding: 15px;
+    width: 140px;
+  }
+}
+@media screen and (max-width: 700px) {
+  body main nav .logo input {
+    width: 50%;
+    padding: 7px;
+  }
+  body main nav a {
+    width: 27%;
+  }
+  body main .section1 {
+    margin-top: 150px;
+  }
+  body main .section1 img {
+    width: 33%;
+  }
+  body main .section2 {
+    gap: 20px;
+    margin-top: 40px;
+  }
+  body main .section2 button {
+    padding: 15px 20px;
+    width: 140px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body main nav .logo img {
+    width: 20%;
+  }
+  body main nav .logo input {
+    display: none;
+  }
+  body main nav a {
+    width: 50%;
+    font-size: 10px;
+  }
+  body main .section1 {
+    margin-top: 150px;
+  }
+  body main .section1 img {
+    width: 40%;
+  }
+  body main .section2 {
+    gap: 30px;
+  }
+  body main .section2 button {
+    padding: 15px 20px;
+    width: 120px;
+    text-align: center;
+  }
+  body main .section2 button a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
