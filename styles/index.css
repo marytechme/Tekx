@@ -1,3 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap");
+/* Error: Undefined variable.
+ *   ,
+ * 8 |         background-color: $secondarycolor;
+ *   |                           ^^^^^^^^^^^^^^^
+ *   '
+ *   components\_index1.scss 8:27  @import
+ *   styles\index.scss 2:9         root stylesheet */
 
-/*# sourceMappingURL=index.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 8 \2502          background-color: $secondarycolor;\d\a   \2502                            ^^^^^^^^^^^^^^^\a   \2575 \a   components\\_index1.scss 8:27  @import\a   styles\\index.scss 2:9         root stylesheet";
+}
