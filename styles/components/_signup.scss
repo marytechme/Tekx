@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    body{
+        font-family: 'Nunito Sans', sans-serif;
+        background-color: whitesmoke;
+        main{
+            width: 100%;
+            nav{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: white;
+                padding: 10px 40px 10px 40px;
+                box-shadow: 1px 1px 1px 1px gainsboro;
+                .logo{
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    img{
+                        width: 10%;
+                    }
+                    input{
+                        width: 40%;
+                        background-color: gainsboro;
+                        border: none;
+                        outline: none;
+                        padding: 10px;
+                        border-radius: 7px;
+                    }
+                }
+                .sign{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 30px;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-size: 15px;
+                    }  
+                } 
+            }
+        }
+    }
+}

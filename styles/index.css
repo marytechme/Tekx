@@ -309,5 +309,52 @@
     margin-top: 1px;
   }
 }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+* body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: whitesmoke;
+}
+* body main {
+  width: 100%;
+}
+* body main nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 40px 10px 40px;
+  box-shadow: 1px 1px 1px 1px gainsboro;
+}
+* body main nav .logo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+* body main nav .logo img {
+  width: 10%;
+}
+* body main nav .logo input {
+  width: 40%;
+  background-color: gainsboro;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 7px;
+}
+* body main nav .sign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+* body main nav .sign a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
 
 /*# sourceMappingURL=index.css.map */
