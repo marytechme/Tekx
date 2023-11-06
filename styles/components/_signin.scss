@@ -13,6 +13,198 @@
                 align-items: center;
                 background-color: white;
                 padding: 10px 40px 10px 40px;
+                box-shadow: 1px 1px 1px 1px gainsboro;
+                .logo{
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    img{
+                        width: 10%;
+                    }
+                    input{
+                        width: 40%;
+                        background-color: gainsboro;
+                        border: none;
+                        outline: none;
+                        padding: 10px;
+                        border-radius: 7px;
+                    }
+                }
+                .sign{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 30px;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-size: 15px;
+                    }  
+                } 
+            }
+            .main{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .section1{
+                    width: 50%;
+                    display: block;
+                    border-right: 1px solid rgb(87, 86, 86);
+                    height: 500px;
+                    .img{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img{
+                            width: 50%;
+                        }
+                    }
+                    h1{
+                        font-size: 40px;
+                        text-align: center;
+                    }
+                    p{
+                        font-size: 20px;
+                        text-align: center;
+                    }
+                }
+                .section2{
+                    width: 50%;
+                    margin-top: 60px;
+                    form{
+                        border: none;
+                        border-radius: 10px;
+                        padding: 30px;
+                        background-color: white;
+                        width: 50%;
+                        label{
+                            font-size: 16px;
+                            font-weight: bold;
+                        }
+                        input{
+                            outline: none;
+                            margin-top: 10px;
+                            width: 70%;
+                            border: none;
+                            border-bottom: 1px solid gainsboro;
+                        }
+                        .consent{
+                            display: block;
+                            input{
+                                width: 15px;
+                            }
+                        }
+                        .button{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body{
+        main{
+            nav{
+                .logo{
+                    input{
+                        padding: 8px;
+                    }
+                }
+                .sign{
+                     a{
+                        width: 100%;
+                    } 
+                } 
+            }
+            .main{
+                .section1{
+                    border-right: none;
+                    margin-top: 100px;
+                }
+                .section2{
+                    margin-top: 20px;
+                    border-left: 1px solid rgb(87, 86, 86);
+                    height: 400px;
+                    form{
+                        padding: 25px;
+                        width: 80%;
+                        input{
+                            margin-top: 5px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        main{
+            nav{
+                .logo{
+                    img{
+                        width: 14%;
+                    }
+                }
+                .sign{
+                    a{
+                        font-size: 13px;
+                    }  
+                } 
+            }
+            .main{
+                .section1{
+                    .img{
+                        img{
+                            padding-top: 60px;
+                        }
+                    }
+                    h1{
+                        font-size: 35px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+                .section2{
+                    // width: 50%;
+                    // margin-top: 60px;
+                    form{
+                        // border: none;
+                        // border-radius: 10px;
+                        // padding: 30px;
+                        // background-color: white;
+                        // width: 50%;
+                        label{
+                            font-size: 13px;
+                        }
+                        input{
+                            width: 80%;
+                        }
+                        .consent{
+                            display: block;
+                            input{
+                                width: 15px;
+                                font-size: 15px;
+                            }
+                        }
+                        .button{
+                            button{
+                                margin-top: 1px;
+                            }
+                           
+                        }
+                    }
+                }
+
             }
         }
     }
