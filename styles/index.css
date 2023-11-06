@@ -254,17 +254,14 @@
     width: 100%;
   }
   body main .main .section1 {
-    border-right: none;
-    margin-top: 100px;
+    display: none;
   }
   body main .main .section2 {
-    margin-top: 20px;
-    border-left: 1px solid rgb(87, 86, 86);
-    height: 400px;
+    margin-top: 90px;
   }
   body main .main .section2 form {
     padding: 25px;
-    width: 80%;
+    width: 100%;
   }
   body main .main .section2 form input {
     margin-top: 5px;
@@ -278,7 +275,12 @@
     font-size: 13px;
   }
   body main .main .section1 {
-    display: hidden;
+    display: none;
+  }
+  body main .main .section2 {
+    width: 90%;
+    margin-top: 100px;
+    border-left: none;
   }
   body main .main .section2 form label {
     font-size: 13px;

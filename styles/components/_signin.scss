@@ -124,16 +124,15 @@
             }
             .main{
                 .section1{
-                    border-right: none;
-                    margin-top: 100px;
+                    display: none;
                 }
                 .section2{
-                    margin-top: 20px;
-                    border-left: 1px solid rgb(87, 86, 86);
-                    height: 400px;
+                    margin-top: 90px;
+                    // border-left: 1px solid rgb(87, 86, 86);
+                    // height: 400px;
                     form{
                         padding: 25px;
-                        width: 80%;
+                        width: 100%;
                         input{
                             margin-top: 5px;
                         }
@@ -162,17 +161,14 @@
             }
             .main{
                 .section1{
-                    display: hidden;
+                    display: none;
                 }
                 .section2{
-                    // width: 50%;
-                    // margin-top: 60px;
+                    width: 90%;
+                    margin-top: 100px;
+                    border-left: none;
                     form{
-                        // border: none;
-                        // border-radius: 10px;
-                        // padding: 30px;
-                        // background-color: white;
-                        // width: 50%;
+                     
                         label{
                             font-size: 13px;
                         }
