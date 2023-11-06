@@ -277,14 +277,8 @@
   body main nav .sign a {
     font-size: 13px;
   }
-  body main .main .section1 .img img {
-    padding-top: 60px;
-  }
-  body main .main .section1 h1 {
-    font-size: 35px;
-  }
-  body main .main .section1 p {
-    font-size: 16px;
+  body main .main .section1 {
+    display: hidden;
   }
   body main .main .section2 form label {
     font-size: 13px;
